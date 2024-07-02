@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="current-weather-client" />
+        <module name="weather-web-api" />
+        <module name="weather-frontend" />
+        <module name="weather-data" />
+        <module name="updater" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="current-weather-client" target="17" />
+      <module name="updater" target="17" />
+      <module name="weather-data" target="17" />
+      <module name="weather-frontend" target="17" />
+      <module name="weather-web-api" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="current-weather-client" options="-parameters" />
+      <module name="updater" options="-parameters" />
+      <module name="weather-data" options="-parameters" />
+      <module name="weather-frontend" options="-parameters" />
+      <module name="weather-web-api" options="-parameters" />
+    </option>
+  </component>
+</project>

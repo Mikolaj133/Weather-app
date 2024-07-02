@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/current-weather-client/current-weather-client.iml" filepath="$PROJECT_DIR$/current-weather-client/current-weather-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-updater/updater.iml" filepath="$PROJECT_DIR$/weather-updater/updater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather.iml" filepath="$PROJECT_DIR$/weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-data/weather-data.iml" filepath="$PROJECT_DIR$/weather-data/weather-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-frontend/weather-frontend.iml" filepath="$PROJECT_DIR$/weather-frontend/weather-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-web-api/weather-web-api.iml" filepath="$PROJECT_DIR$/weather-web-api/weather-web-api.iml" />
+    </modules>
+  </component>
+</project>

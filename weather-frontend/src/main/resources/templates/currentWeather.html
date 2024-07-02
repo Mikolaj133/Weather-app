@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Weather</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>City Name</th>
+                <th>Temperature</th>
+                <th>Wind Speed</th>
+                <th>Air Quality</th>
+                <th>Sunrise</th>
+                <th>Sunset</th>
+                <th>Pressure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td th:text="${currentWeather.cityName}"></td>
+                <td th:text="${currentWeather.temperature}"></td>
+                <td th:text="${currentWeather.windSpeed}"></td>
+                <td th:text="${currentWeather.airQualityIndex}"></td>
+                <td th:text="${currentWeather.sunrise}"></td>
+                <td th:text="${currentWeather.sunset}"></td>
+                <td th:text="${currentWeather.pressure}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

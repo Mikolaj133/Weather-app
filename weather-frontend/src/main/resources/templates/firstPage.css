@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: lightyellow;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    left: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+.form_text{
+    border: 2px black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    left: 35%;
+    font-style: italic;
+    
+
+}
+.button{
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    left: 66.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
